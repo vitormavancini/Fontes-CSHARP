@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Estacionamento.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Estacionamento.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Estacionamento.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Estacionamento.Common/1.0.0": {
+      "type": "project",
+      "path": "../Estacionamento.Common/Estacionamento.Common.csproj",
+      "msbuildProject": "../Estacionamento.Common/Estacionamento.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Estacionamento.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vitor\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Protheus\\Projetos\\Fontes-CSHARP\\Estacionamento\\Estacionamento\\Estacionamento.csproj",
+      "projectName": "Estacionamento",
+      "projectPath": "C:\\Protheus\\Projetos\\Fontes-CSHARP\\Estacionamento\\Estacionamento\\Estacionamento.csproj",
+      "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+      "outputPath": "C:\\Protheus\\Projetos\\Fontes-CSHARP\\Estacionamento\\Estacionamento\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Protheus\\Projetos\\Fontes-CSHARP\\Estacionamento\\Estacionamento.Common\\Estacionamento.Common.csproj": {
+              "projectPath": "C:\\Protheus\\Projetos\\Fontes-CSHARP\\Estacionamento\\Estacionamento.Common\\Estacionamento.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
